@@ -1,0 +1,3 @@
+
+! Remove audio messages on Discord
+discord.com##.messageListItem__6a4fb:has(.rippleContainer_bf482c)
