@@ -1,4 +1,79 @@
+! 2023-09-22 https://www.youtube.com
 
-! Hide audio messages on Discord
+www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-feed-nudge-renderer.style-scope
+
+
+
+
+
+! 2023-12-04 https://kick.com
+
+kick.com##div.flex-col.\!w-\[144px\].subcategory-card.grid-item:nth-of-type(2)
+kick.com##a.group.category-tile-holder:nth-of-type(4)
+kick.com##div.lg\:px-7.pr-2.pl-1.mb-7:nth-of-type(5) > div
+kick.com##div.lg\:px-7.pr-2.pl-1.mb-7:nth-of-type(7)
+kick.com##div.lg\:px-7.pr-2.pl-1.mb-7:nth-of-type(9)
+kick.com##div.flex-col.\!w-\[144px\].subcategory-card.grid-item:nth-of-type(6)
+kick.com##div.flex-col.\!w-\[144px\].subcategory-card.grid-item:nth-of-type(4)
+kick.com##div.flex-col.\!w-\[144px\].subcategory-card.grid-item:nth-of-type(5)
+
+
+
+! 2023-12-16 https://fr.aliexpress.com
+
+! Big entrance ad.
+fr.aliexpress.com##div:has(.image-poplayer-modal)
+
+! Annoying fixed reduction button
+
+!fr.aliexpress.com##.drogue-poplayer-modal
+fr.aliexpress.com##div:has(.drogue-poplayer-modal)
+
+! Down APP button.
+fr.aliexpress.com##.down_fr_FR.down-load-app--menuItem--3FNru0r
+
+
+
+
+! 2023-12-25 https://www.thingiverse.com
+
+www.thingiverse.com##div.ItemCardContainer__itemCard--GGbYM:nth-of-type(20)
+
+
+
+! 2023-12-27 https://www.twitch.tv
+
+www.twitch.tv##div.announcement-line--purple.announcement-line.hxpcPU.Layout-sc-1xcs6mc-0:nth-of-type(96)
+www.twitch.tv##div.announcement-line--purple.announcement-line.hxpcPU.Layout-sc-1xcs6mc-0
+www.twitch.tv##.tw-root--theme-light.hecqoS.ScLayoutCssVars-sc-10awzi2-1.Layout-sc-1xcs6mc-0
+www.twitch.tv###twilight-sticky-footer-root
+www.twitch.tv##.prime-offers.cwtKyw.Layout-sc-1xcs6mc-0
+www.twitch.tv##.kBEymU.Layout-sc-1xcs6mc-0 > .hatIYF.Layout-sc-1xcs6mc-0 .kBtJDm.InjectLayout-sc-1i43xsx-0 > .eSFFfM.ScButtonIcon-sc-9yap0r-0.bTXTVH.ScCoreButton-sc-ocjdkq-0
+www.twitch.tv##.channel-info-content > div > div > .kbdfeJ.Layout-sc-1xcs6mc-0
+www.twitch.tv##.announcement-line--orange.announcement-line.fnqALR.Layout-sc-1xcs6mc-0
+
+
+
+! 2024-01-03 https://www.lapresse.ca
+
+www.lapresse.ca##body > div:nth-of-type(6)
+
+
+
+! 2024-02-05 https://www.malekal.com
+
+www.malekal.com##.Here
+
+
+
+! 2024-02-07 https://discord.com
+
+! Hide audio messages
 ! Doesn't remove: can be searched, and notifications still appears.
 discord.com##.messageListItem__6a4fb:has(.rippleContainer_bf482c)
+
+discord.com##.colorPremium__32b12.colorPremiumTier2_b5437b.notice__5fd4c
+discord.com##div.buttonContainer__8b164.expression-picker-chat-input-button:nth-of-type(2)
+discord.com###sticker-picker-tab
+discord.com##.buttons_ce5b56 > .grow__4c8a4.colorBrand_b2253e.lookBlank__7ca0a.button_afdfd9 > .button__55e53.button_f0455c.contents_fb6220
+discord.com##div.groupStart__56db5 > .zalgo__39311.cozy_f5c119.wrapper__09ecc
