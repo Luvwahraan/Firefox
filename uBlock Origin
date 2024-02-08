@@ -1,3 +1,4 @@
 
-! Remove audio messages on Discord
+! Hide audio messages on Discord
+! Doesn't remove: can be searched, and notifications still appears.
 discord.com##.messageListItem__6a4fb:has(.rippleContainer_bf482c)
