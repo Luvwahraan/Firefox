@@ -1,41 +1,25 @@
-! https://discord.com
+! 2024-04-19 https://discord.com
 
-!Audio messages
-discord.com##.messageListItem__6a4fb:has(.rippleContainer_bf482c)
+! private: market
+discord.com##li.container__3792d.channel__0aef5:nth-of-type(3)
 
-! Useless shops in private messages.
-discord.com##.container__8759a:has-text(Boutique)
-discord.com##.container__8759a:has-text(Nitro)
+! private: nitro
+discord.com##li.container__3792d.channel__0aef5:nth-of-type(2)
 
-! Paid features in message bar
-discord.com##button.button_afdfd9[aria-label="Envoyer un cadeau"]
-discord.com##button.button_afdfd9[aria-label="Ouvrir le sélecteur d'autocollant"]
+! textbar: gift
+discord.com##.buttons__7ecff > .grow__4c8a4.colorBrand__27d57.lookBlank_a5b4ca.button__581d0
 
-! Boost goal
-discord.com##div.container__4f639[aria-label^="Achète des boosts"]
+! textbar: sticks
+discord.com##.stickerButton_c02bc0.button__493d9.button__437ce.contents__322f4
 
-! User settings
+! settings: nitro
+discord.com##.themed_b957e8.item__48dda.premiumTab_ad0913
 
-! payment
-discord.com##div.header_f72511:has-text(Paramètres de facturation)
-discord.com##div.item__48dda:has-text(Nitro)
-discord.com##div.item__48dda:has-text(Boost de serveur)
-discord.com##div.item__48dda:has-text(Abonnements)
-discord.com##div.item__48dda:has-text(Facturation)
-discord.com##div.item__48dda:has-text(Inventaire des cadeaux)
-discord.com##div.item__48dda:has-text(Nouveautés)
-discord.com##div.item__48dda:has-text(Produits dérivés)
-discord.com##div.item__48dda:has-text(HypeSquad)
+! settings: produits dérivés
+discord.com##div.themed_b957e8.item__48dda:nth-of-type(34)
 
-! social links
-discord.com##div.socialLinks_c1fc99
+! settings: hypesquad
+discord.com##.themed_b957e8.selected_a523ff.item__48dda
 
-! Useless separators
-discord.com##div.side_b4b3f6 > div:nth-of-type(11)
-discord.com##div.side_b4b3f6 > div:nth-of-type(32)
-discord.com##div.side_b4b3f6 > div:nth-of-type(38)
-
-! Nitro crap in tabs
-discord.com##div.marginTop8__83d4b:has(div.premiumFeatureBorder__9bbb3)
-discord.com##div.premiumFeatureBorder__9bbb3
-discord.com##div.shopForAllBackgroundImage__009d9
+! settings: add payment
+discord.com###billing-tab > div > div:nth-of-type(1)
